@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     @IBOutlet weak var tableView: UITableView!
-    let emojiDictionary : [String : String] = ["🍑" : "A \"peach\"","👉🏿":"A black hand pointing at something awesome probably","👌":"All good symbol","🖕":"A nice elegant middle finger","🐹":"A cute little hamster","🙈":"A monkey covering their eyes instead of watching George jump off the cliff","🍕":"A good ol slice of za","💯":"The best number","🇨🇦":"Easily the best country's flag"]
+    let emojiDictionary : [String : String] = ["🍑" : "A \"peach\"","👉🏿":"A black hand pointing at something awesome probably","👌":"All good symbol","🖕":"A nice elegant middle finger","🐹":"A cute little hamster","🙈":"A monkey covering their eyes instead of watching George jump off the cliff","🍕":"A good ol slice of za","💯":"The best number","🇨🇦":"Easily the best country's flag", "👀" : "This guy's definitely lurking", "👏" : "Clapping hands for Mike Weir hanging up the clubs", "👂🏼" : "A nosy ear listening for gossip"]
     var keys : [String] = []
     var defs : [String] = []
     

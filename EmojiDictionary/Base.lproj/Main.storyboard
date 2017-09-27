@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Emoji Dictionary-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="ViewController" customModule="EmojiDictionary" customModuleProvider="target" sceneMemberID="viewController">
@@ -31,7 +31,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="woc-8X-DnE"/>
+                    <navigationItem key="navigationItem" title="Emoji Dictionary" id="woc-8X-DnE">
+                        <barButtonItem key="backBarButtonItem" title="Back " id="YF8-rv-LDT"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="Hsm-Jg-MIC" id="MIj-mc-cxK"/>
                         <segue destination="t5h-J1-RP0" kind="show" identifier="moveSegue" id="CUw-A3-zB0"/>
